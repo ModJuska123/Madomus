@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="lt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/projects.css" />
+    <link rel="stylesheet" href="./css/font-awesome.min.css" />
+    <title>Statybos imone</title>
+  </head>
+  <body>
+    <div id="header"></div>
+
+    <section class="text-galery">
+      <h1 class="text-galery-title">Mūsų projektai</h1>
+      <div class="image-gallery">
+        <div class="image-container">
+          <img src="https://paslaugos-img.dgn.lt/gallery_10_14159204/a-namai-jums-statybos-ir-remonto-darbai.jpg" alt="Projektas 1" />
+          <div class="info-box">
+            <h2>Projektas:</h2>
+            <p>Aprašymas:</p>
+          </div>
+        </div>
+        <div class="image-container">
+          <img src="https://paslaugos-img.dgn.lt/gallery_10_14159234/a-namai-jums-statybos-ir-remonto-darbai.jpg" alt="Projektas 2" />
+          <div class="info-box">
+            <h2>Projektas:</h2>
+            <p>Aprašymas:</p>
+          </div>
+        </div>
+        <div class="image-container">
+          <img src="https://paslaugos-img.dgn.lt/gallery_10_14158888/a-namai-jums-statybos-ir-remonto-darbai.jpg" alt="Projektas 3" />
+          <div class="info-box">
+            <h2>Projektas:</h2>
+            <p>Aprašymas:</p>
+          </div>
+        </div>
+        <div class="image-container">
+          <img src="https://paslaugos-img.dgn.lt/gallery_10_14158882/a-namai-jums-statybos-ir-remonto-darbai.jpg" alt="Projektas 4" />
+          <div class="info-box">
+            <h2>Projektas:</h2>
+            <p>Aprašymas:</p>
+          </div>
+        </div>
+        <div class="image-container">
+          <img src="https://paslaugos-img.dgn.lt/gallery_10_14159524/a-namai-jums-statybos-ir-remonto-darbai-ms1350-galerija.jpg" alt="Projektas 5" />
+          <div class="info-box">
+            <h2>Projektas:</h2>
+            <p>Aprašymas:</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="footer"></div>
+
+    <script>
+      fetch('header.html')
+        .then(response => response.text())
+        .then(data => document.getElementById('header').innerHTML = data);
+
+      fetch('footer.html')
+        .then(response => response.text())
+        .then(data => document.getElementById('footer').innerHTML = data);
+    </script>
+  </body>
+</html>

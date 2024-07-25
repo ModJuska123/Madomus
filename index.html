@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="lt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/font-awesome.min.css" />
+    <title>Statybos imone</title>
+  </head>
+  <body>
+    <div id="header"></div>
+    <section>
+      <div class="main-body-hero">
+        <img class="main-body-img" ; src="img3.png" alt="hero" />
+      </div>
+      <div class="text-hero">
+        <h1>Apie mus</h1>
+        <p>
+          Madomus, MB - tai nauja statybos įmonė, kuri siekia teikti aukštos kokybės statybos paslaugas. Nors esame jauni rinkoje, turime entuziazmo ir noro įgyvendinti jūsų projektus.
+        </p>
+        <p>
+          Mūsų darbuotojai yra profesionalai, kurie turi didelę patirtį savo
+          srityje ir yra atestuoti.
+        </p>
+      </div>
+    </section>
+    
+    <section class="text-galery">
+      <h1 class="text-galery-title">Mūsų projektai</h1>
+      <div class="image-gallery">
+        <img
+          src="https://paslaugos-img.dgn.lt/gallery_10_14159204/a-namai-jums-statybos-ir-remonto-darbai.jpg"
+          alt="Projektas 2"
+        /><img
+          src="https://paslaugos-img.dgn.lt/gallery_10_14159234/a-namai-jums-statybos-ir-remonto-darbai.jpg"
+          alt="Projektas 1"
+        />
+        <img
+          src="https://paslaugos-img.dgn.lt/gallery_10_14158888/a-namai-jums-statybos-ir-remonto-darbai.jpg"
+          alt="Projektas 3"
+        />
+        <img
+          src="https://paslaugos-img.dgn.lt/gallery_10_14158882/a-namai-jums-statybos-ir-remonto-darbai.jpg"
+          alt="Projektas 4"
+        />
+        <img
+          src="https://paslaugos-img.dgn.lt/gallery_10_14159524/a-namai-jums-statybos-ir-remonto-darbai-ms1350-galerija.jpg"
+          alt="Projektas 5"
+        />
+        <img
+          src="https://paslaugos-img.dgn.lt/gallery_10_14158776/a-namai-jums-statybos-ir-remonto-darbai.jpg"
+          alt="Projektas 6"
+        />
+      </div>
+    </section>
+    <div id="footer"></div>
+  </body>
+  <script>
+        fetch('header.html')
+        .then(response => response.text())
+        .then(data => document.getElementById('header').innerHTML = data);
+
+        fetch('footer.html')
+        .then(response => response.text())
+        .then(data => document.getElementById('footer').innerHTML = data);
+</script>
+</html>

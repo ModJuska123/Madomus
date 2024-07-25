@@ -1,0 +1,48 @@
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 50px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            font-size: 35px;
+            margin-bottom: 50px;
+        }
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .service {
+            background: #f4f4f4;
+            margin: 15px;
+            padding: 20px;
+            border-radius: 8px;
+            width: 45%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .service i {
+            font-size: 80px;
+            color: #3498db;
+            margin-bottom: 15px;
+        }
+        .service h2 {
+            color: #333;
+            font-size: 24px;
+            margin-top: 10px;
+        }
+        .service p {
+            font-size: 18px;
+            color: #666;
+        }
