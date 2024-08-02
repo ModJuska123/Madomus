@@ -24,14 +24,21 @@
             justify-content: space-around;
         }
         .service {
-            background: #f4f4f4;
+            /* background: #f4f4f4; */
             margin: 15px;
             padding: 20px;
             border-radius: 8px;
             width: 45%;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            text-align: center;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+            text-align: center;           
         }
+
+        .service:hover {
+            opacity: 0.9;
+            cursor: pointer;
+            
+        }
+        
         .service i {
             font-size: 80px;
             color: #3498db;
