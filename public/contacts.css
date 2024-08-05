@@ -116,3 +116,20 @@ button {
 button:hover {
     background-color: #2479bf;
 }
+
+.main-header {
+    display: inline-block;
+    background-color: #336699;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+footer {
+    background-color: #336699;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position:inherit;
+    width: 100%;
+    /* font-size: 40px; */
+}
