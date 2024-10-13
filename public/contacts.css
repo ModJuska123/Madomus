@@ -4,6 +4,43 @@ body {
     margin: 0;
     padding: 0;
 }
+
+.main-header {
+    display: inline-block;
+    background-color: #336699;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.logo {
+    margin-left: 100px;
+    float: left;
+}
+
+.main-meniu {
+    float: right;
+    margin-top: 50px;
+}
+
+.menu-link {
+    font-size: 20px;
+    height: 20px;
+    margin-right: 30px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu-link:last-child {
+    margin-right: 50px;
+}
+
+.menu-link:hover {
+    padding-bottom: 5px;
+    color: red;
+    border-bottom: 3px solid red;
+}
+
 .container {
     max-width: 1500px;
     margin: 50px auto;
@@ -117,13 +154,6 @@ button:hover {
     background-color: #2479bf;
 }
 
-.main-header {
-    display: inline-block;
-    background-color: #336699;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    width: 100%;
-}
 footer {
     background-color: #336699;
     color: #fff;
